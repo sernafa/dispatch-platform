@@ -4,7 +4,7 @@
 
 **Self-hosted .NET email relay - forward mail from your apps to any cloud provider**
 
-[![Build](https://github.com/CinderHillsDev/dispatch-platform/actions/workflows/build.yml/badge.svg)](https://github.com/CinderHillsDev/dispatch-platform/actions)
+[![Docker Publish](https://github.com/sernafa/dispatch-platform/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/sernafa/dispatch-platform/actions/workflows/docker-publish.yml)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Docker-lightgrey)](https://docs.dispatchrelay.app/deployment/overview/)
 
 Point your applications and devices at Dispatch over **SMTP** (the standard ports **25** and **587** by default - it falls back to **2525** only if 25 is already taken) or a Mailgun-compatible **HTTP API**. Dispatch queues every message durably and forwards it to a dozen providers - Mailgun, SendGrid, Amazon SES, Postmark, Resend, SparkPost, SMTP2GO, Maileroo, Emailit, Bird, Azure Communication Services - or any SMTP smart host, with a live web dashboard to monitor, configure, and troubleshoot everything.

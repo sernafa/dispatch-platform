@@ -15,6 +15,9 @@ Point your applications and devices at Dispatch over **SMTP** (the standard port
 
 </div>
 
+> [!IMPORTANT]
+> **This is a fork.** This repository is a fork of [CinderHillsDev/dispatch-platform](https://github.com/CinderHillsDev/dispatch-platform), maintained solely for building and publishing the container image to this fork's GitHub Container Registry (`ghcr.io/sernafa/dispatch-platform`). No feature development happens here. All credit for the project itself belongs to the upstream authors - for documentation, official releases, issues, and support, please use the [upstream repository](https://github.com/CinderHillsDev/dispatch-platform).
+
 ---
 
 ## Why Dispatch?
